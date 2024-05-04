@@ -2,19 +2,18 @@
 ### Supplemental material
 
 * [Add pressure mechanofeedback on cycling](#add-pressure-mechanofeedback-on-cycling)
-* Add oxygen-based cycling
-* Add hypoxia-driven necrosis
-* Add a cytotoxic drug
-* Add release of dead cell debris
-* Add macrophages
-* Add pro-inflammatory factor
-* Add effector T cells
+* [Add oxygen-based cycling](#add-oxygen-based-cycling)
+* [Add hypoxia-driven necrosis](#add-hypoxia-driven-necrosis)
+* [Add a cytotoxic drug](#add-a-cytotoxic-drug)
+* [Add release of dead cell debris](#add-release-of-dead-cell-debris)
+* [Add macrophages](#add-macrophages)
+* [Add pro-inflammatory factor](#add-pro-inflammatory-factor)
+* [Add effector T cells](#add-effector-t-cells)
 
 
 We continue with the demonstration on how one might use PhysiCell Studio by adding more details to the tumor model. For more information on why certain parameter values were chosen, refer to Part 2 slides at github.com/physicell-training/nw2023.
 
 ## Add pressure mechanofeedback on cycling
-
 
 We use the Rules tab to dynamically modify the cell cycle (behavior) as a function of cell pressure (signal). Specifically, we want an increase in pressure to decrease the transition rate of the (“live”) cell cycle. The modeling grammar[1] used in the Rules tab was introduced in PhysiCell version 1.12.0. 
 In the “Rules” tab:
